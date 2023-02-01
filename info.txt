@@ -1,0 +1,7 @@
+Curso de Cypress, esta será información importante
+
+1. npm init --> para crear el package.json
+2. npm install cypress --save-dev --> Instalacion de cypress
+2.1 npx cypress install --force -->forzar Instalacion
+3. node_modules\.bin\cypress open --> para ver que cypress esta ok
+3.1 npx cypress open --> en caso de que no se abra cypress

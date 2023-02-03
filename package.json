@@ -1,14 +1,24 @@
 {
-  "name": "cypress",
+  "name": "cypress_automation",
   "version": "1.0.0",
-  "description": "Curso de cypress 2021",
+  "description": "Curso cypress 2023",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebasZC/Cypress_Automation.git"
+  },
   "author": "Sebastian Zapata",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebasZC/Cypress_Automation/issues"
+  },
+  "homepage": "https://github.com/SebasZC/Cypress_Automation#readme",
   "devDependencies": {
-    "cypress": "^12.5.0"
+    "cypress": "^12.5.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.1"
   }
 }

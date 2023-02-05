@@ -1,9 +1,9 @@
 /// <reference types="Cypress"/>
 //Para que funcionen los comandos
 
-describe("Bienvenido al curso de cypress, versión 1", ()=>{
+describe("Funciona alias", ()=>{
 
-    it('Mi segundo test -> campo nombre', () => {
+    it('Alias como variables', () => {
         cy.log("Prueba a pagina web")
         cy.visit('https://testingqarvn.com.es/datos-personales/')
 

@@ -7,3 +7,11 @@ Curso de Cypress, esta será información importante
 3.1 npx cypress open --> en caso de que no se abra cypress
 4. npm install -D cypress-plugin-tab --> Pluggin para usar TAB
 5. npm install -D cypress-xpath --> pluggin para xpath
+6. node_modules\.bin\cypress run --> para enviar todos los test desde la consola
+6.1 npx cypress run --> por si el anterior no funciona
+7. npx cypress run --headed --> Para correr los test pero en el navegador
+8. npx cypress run --browser chrome --> ejecutar pruebas desde el navegador chrome
+9. npx cypress run --spec "nombreDelArchivo.cy.js" para ejecutar solo uno
+10 .npx cypress run --spec "cypress\e2e\sesion-2\*" --> Para ejecutar los de una carpeta
+11. npm install --save-dev cypress-file-upload --> pluggin para subir archivos
+12. npm install --save-dev @4tw/cypress-drag-drop -->Pluggin para arrastrar y pegar

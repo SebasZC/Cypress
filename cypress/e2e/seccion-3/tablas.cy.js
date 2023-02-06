@@ -33,7 +33,7 @@ describe("Tablas automation", ()=>{
         
     })
 
-    it.only('Seleccionar elemento padre', () => {
+    it('Seleccionar elemento padre', () => {
         cy.visit("https://ecommerce.tealiumdemo.com/")
         cy.get("#newsletter").parent().should("have.class","input-box")
         

@@ -19,7 +19,7 @@ describe("Select automation", ()=>{
         
     })
 
-    it.only('Select multiselect', () => {
+    it('Select multiselect', () => {
         cy.visit("https://www.ironspider.ca/forms/dropdowns.htm")
         cy.title().should('eq','Dropdown Menus')
         cy.get("[name='coffee2']").should("be.visible").select(["skim","whipped","honey","danish"])

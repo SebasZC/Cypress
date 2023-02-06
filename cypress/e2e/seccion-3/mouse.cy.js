@@ -22,7 +22,7 @@ describe("mouse automation", ()=>{
 
     })
 
-    it.only('over mouseo', () => {
+    it('over mouseo', () => {
         cy.visit("https://ecommerce.tealiumdemo.com/")
 
         cy.contains('Women').trigger('mouseover')

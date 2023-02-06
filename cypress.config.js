@@ -7,7 +7,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber())
     },
-    specPattern: "**/*.feature",
+    //specPattern: "**/*.feature",
   },
   
   //alto y ancho de la ventana

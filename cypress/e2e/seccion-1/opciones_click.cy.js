@@ -24,7 +24,7 @@ describe("Opciones de clicks", ()=>{
         cy.get('#wsf-1-field-27').should("be.visible").click({force: true})
     })
 
-    it.only('Click por coordenadas (x,y)', () => {
+    it('Click por coordenadas (x,y)', () => {
         cy.visit("https://testingqarvn.com.es/datos-personales/")
         cy.get('#wsf-1-field-21').type("Sebastian")
         cy.get('#wsf-1-field-22').type("Zapata")

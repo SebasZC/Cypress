@@ -17,7 +17,7 @@ describe("Ejemplo de type pageUp, pageDown", ()=>{
         cy.get('#wsf-1-field-21').type("{pagedown}")
     });
 
-    it.only('Page up', () => {
+    it('Page up', () => {
         cy.visit("https://testingqarvn.com.es/datos-personales/")
         cy.title().should('eq','Datos Personales | TestingQaRvn')
         cy.wait(1000)

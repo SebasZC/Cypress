@@ -19,6 +19,20 @@ Curso de Cypress, esta será información importante
 14. npm install --save-dev cypress-cucumber-preprocessor --> cucumber pluggin
 15. npm install @badeball/cypress-cucumber-preprocessor --> cucumber pluggin de cypress
 16. para apagar jerkins entrar con CMDER a C:\Program Files\Jenkins y escribir jenkins stop
+17. para endender jerkins entrar con CMDER a C:\Program Files\Jenkins y escribir jenkins start
+18. pluggins en jerkins
+    GitHub Integration
+    GitHub Authentication
+    GitHub Pull Request Builder
+    GitHub Organization Folder
+    NodeJS
+    Green Balls
+    Mock Agent
+19. Configurar las variables globales 
+    JDK
+    NodeJS
+    Git (...)
+
 
 //Algunos selectores mas...
 1. #userName[type='input'] --> indicar que tipo es css

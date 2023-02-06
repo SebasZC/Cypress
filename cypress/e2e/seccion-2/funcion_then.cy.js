@@ -5,7 +5,7 @@ require('cypress-xpath')
 
 describe("Then function", ()=>{
    
-    it.only('Select multiselect and function then', () => {
+    it('Select multiselect and function then', () => {
         cy.visit("https://www.ironspider.ca/forms/dropdowns.htm")
         cy.title().should('eq','Dropdown Menus')
         cy.get("[name='coffee2']").should("be.visible").select(["skim","whipped","honey","danish"]).then(()=>{

@@ -13,7 +13,7 @@ describe("Uso del ciclo for en preubas", ()=>{
         
     })
 
-    it.only('each y wrap para indicar que se va a seleccionaar uno encontrado', () => {
+    it('each y wrap para indicar que se va a seleccionaar uno encontrado', () => {
         cy.visit("https://www.demoblaze.com/")
         cy.title().should('eq','STORE')
         cy.get("#tbodyid").find(".card-title").each(($el,index,$list)=>{

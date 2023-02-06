@@ -90,7 +90,7 @@ describe("Asserts on Cypress", ()=>{
         cy.contains("[type='submit']","Submit").should("be.visible").click()
     })
 
-    it.only('Assert invoque', () => {
+    it('Assert invoque', () => {
         let name = "Sebas"
         cy.visit('https://testingqarvn.com.es/datos-personales/')
         cy.get('#wsf-1-field-21').invoke("attr","placeholder").should("contain","Nombre:").then(()=>{

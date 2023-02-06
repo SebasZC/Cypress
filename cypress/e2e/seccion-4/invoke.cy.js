@@ -35,7 +35,7 @@ describe("invoke automation", ()=>{
 
     })
     
-    it.only('invoke src', () => {
+    it('invoke src', () => {
         cy.log("Prueba a pagina web")
         cy.visit('https://testingqarvn.com.es/datos-personales/')
 

@@ -25,7 +25,7 @@ describe("Checkbox automation", ()=>{
         cy.xpath('//*[@id="Content"]/div[1]/blockquote[1]/form/input[4]').uncheck().should("not.be.checked")
     })
 
-    it.only('Check por click', () => {
+    it('Check por click', () => {
         cy.visit("https://www.ironspider.ca/forms/checkradio.htm")
         cy.title().should('eq','Checkboxes & Radio Buttons')
         cy.get('[value="purple"]').click()

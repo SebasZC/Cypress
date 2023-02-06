@@ -18,7 +18,7 @@ describe('Navegación entre las páginas', ()=>{
         cy.go("forward")
     })
 
-    it.only('reload', () => {
+    it('reload', () => {
         cy.visit('https://testingqarvn.com.es/practicas-qa/');
         cy.xpath("//div/a[text()='Datos Personales']").click()
 

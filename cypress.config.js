@@ -1,12 +1,15 @@
 const { defineConfig } = require("cypress");
+const cucumber = require('cypress-cucumber-preprocessor').default 
 
 module.exports = defineConfig({
+  projectId: 'xm7i1s',
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      on('file:preprocessor', cucumber())
     },
+    specPattern: "**/*.feature",
   },
-
+  
   //alto y ancho de la ventana
   "viewportWidth": 1500,
   "viewportHeight":900,
@@ -18,5 +21,9 @@ module.exports = defineConfig({
   "pageLoadTimeout": 9000,
 
   //tiempo de espera del elemento
-  "defaultCommandTimeout": 15000
+  "defaultCommandTimeout": 15000,
+
+
 });
+
+

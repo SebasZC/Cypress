@@ -16,6 +16,9 @@ Curso de Cypress, esta será información importante
 11. npm install --save-dev cypress-file-upload --> pluggin para subir archivos
 12. npm install --save-dev @4tw/cypress-drag-drop -->Pluggin para arrastrar y pegar
 13. https://www.mockaroo.com/ --> pagina para generar datos
+14. npm install --save-dev cypress-cucumber-preprocessor --> cucumber pluggin
+15. npm install @badeball/cypress-cucumber-preprocessor --> cucumber pluggin de cypress
+16. para apagar jerkins entrar con CMDER a C:\Program Files\Jenkins y escribir jenkins stop
 
 //Algunos selectores mas...
 1. #userName[type='input'] --> indicar que tipo es css

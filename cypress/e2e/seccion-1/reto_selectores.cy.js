@@ -14,7 +14,7 @@ describe("Reto automatización", ()=>{
 
         //agregando
         cy.get('#add').click()
-        cy.get("[name='name']").should("be.visible").type("cypress pc")
+        cy.get("[name='name']").should("be.visible", {setTimeout:1000}).type("cypress pc")
         cy.get("#introduced").should("be.visible").type("2023-02-02").tab().type("2023-12-31")
         cy.get('#company').should("be.visible").select("Nokia").should("have.value","16")
         cy.get('.primary').should("be.visible").click()

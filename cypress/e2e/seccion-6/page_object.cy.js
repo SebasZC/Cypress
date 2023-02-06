@@ -21,8 +21,11 @@ describe('Page Object Model POM', ()=>{
     it('test secciones', () => {
         const ruta = 'CV_Sebastian_Zapata.pdf'
         master.seccionUno("Sebastian","Zapata","zapatasebastian001@gmail.com")
+        cy.screenshot()
         master.seccionDos("Linux","Ubuntu","Febrero 4, 2023")
+        cy.screenshot()
         master.seccionTres(ruta)
+        cy.screenshot()
     })
 
 

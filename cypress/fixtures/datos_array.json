@@ -1,0 +1,12 @@
+[
+  {"name": "Sebastian", "lastName": "Zapata", "email": "zapatasebastian001@gmail.com", "phone": "+57 3505082088"},
+  {"name": "Mateo", "lastName": "Ciro", "email": "mateo1@gmail.com", "phone": "+57 3001452077"},
+  {"name": "Maria", "lastName": "Lopez", "email": "maria@gmail.com", "phone": "+57 3000000000"},
+  {"name": "Juan", "lastName": "Marinez", "email": "juan@gmail.com", "phone": "+57 3001112233"},
+  {"name": "Manuela", "lastName": "Zapata", "email": "manuela@gmail.com", "phone": "+57 321321000"},
+  {"name": "Liliana", "lastName": "Castaño", "email": "lili@gmail.com", "phone": "+57 3145789541"},
+  {"name": "William", "lastName": "Ossa", "email": "wili@gmail.com", "phone": "+57 3124569874"},
+  {"name": "Pedro", "lastName": "Giraldo", "email": "pedro@gmail.com", "phone": "+57 3214598974"},
+  {"name": "Roberto", "lastName": "Ramirez", "email": "Rober@gmail.com", "phone": "+57 3021456984"},
+  {"name": "Gladys", "lastName": "Sanchez", "email": "gladys@gmail.com", "phone": "+57 35210205874"}
+]

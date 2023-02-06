@@ -12,5 +12,11 @@ module.exports = defineConfig({
   "viewportHeight":900,
 
   //chromeweb security
-  chromeWebSecurity: false
+  chromeWebSecurity: false,
+
+  //tiempo en cargar la pagina
+  "pageLoadTimeout": 9000,
+
+  //tiempo de espera del elemento
+  "defaultCommandTimeout": 15000
 });

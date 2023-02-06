@@ -11,7 +11,16 @@ Curso de Cypress, esta será información importante
 6.1 npx cypress run --> por si el anterior no funciona
 7. npx cypress run --headed --> Para correr los test pero en el navegador
 8. npx cypress run --browser chrome --> ejecutar pruebas desde el navegador chrome
-9. npx cypress run --spec "nombreDelArchivo.cy.js" para ejecutar solo uno
-10 .npx cypress run --spec "cypress\e2e\sesion-2\*" --> Para ejecutar los de una carpeta
+9. npx cypress run --spec "nombreDelArchivo.cy.js" para ejecutar solo uno (tambien crea videos)
+10. npx cypress run --spec "cypress\e2e\sesion-2\*" --> Para ejecutar los de una carpeta
 11. npm install --save-dev cypress-file-upload --> pluggin para subir archivos
 12. npm install --save-dev @4tw/cypress-drag-drop -->Pluggin para arrastrar y pegar
+13. https://www.mockaroo.com/ --> pagina para generar datos
+
+//Algunos selectores mas...
+1. #userName[type='input'] --> indicar que tipo es css
+2. //button[@id='submit'] --> indicar que tipo es xpaht
+3. //input[@id='userName' or @type='text'] --> or
+4. //input[@id='userName' and @type='text'] --> and
+5. //[text()='Bienvenido Sebas'] --> seleccionar por igual al texto
+6. //[contains(text(),'Bienvenido')] --> seleccionar cuando contenga un texto

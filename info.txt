@@ -32,6 +32,9 @@ Curso de Cypress, esta será información importante
     JDK
     NodeJS
     Git (...)
+20. Se puede configurar un agente, seleccionarndo el git.exe, nodejs.exe, de descarga el agent.jar y se ejecuta el comando que aparece en jenkins
+21. configurar el jenkinsfile (esta en este proyecto)
+22. npx cypress run --record --key 35c07ea2-7fd0-4862-b102-4431bc652c40 --> para conectar a cypress online
 
 
 //Algunos selectores mas...
